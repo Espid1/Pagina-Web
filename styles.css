@@ -145,3 +145,10 @@ h3 {
 	width:1px;
 	float:left;
 }
+
+.contacto
+{
+	position: relative;
+	z-index:1;
+	padding: 4px;
+}
