@@ -1,0 +1,147 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #ffffff;
+	color: #949494;
+}
+a {
+	color:#85d4ed;
+	font-size:12px;
+	text-decoration:underline;
+}
+a:hover {
+	color:#85d4ed;
+	font-size:12px;
+	text-decoration:none;
+}
+.logo {
+	color:#154360;
+	font-size:48px;
+	padding:20px 0 0 20px;
+}
+.logo span {
+	color:#28B463;	
+}
+.author {
+	padding:0 0 20px 20px;
+}
+h1 {
+	color:#28B463;
+	font-size:18px;
+	font-weight:bold;
+	padding:0 0 10px 0;
+}
+h2 {
+	color:#ffffff;
+	font-size:48px;
+	font-weight:bold;
+	padding:70px 0 0 70px;
+}
+h3 {
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	padding:0 0 0 100px;
+}
+.mainLogo {	
+	float:left;
+}
+.iconos {
+	float:right;
+	padding:40px 20px 0 0;
+}
+.iconos img {
+	border:0;
+}
+#container { 
+	width: 860px;  
+	margin: 0 auto;
+} 
+.micontenido {
+	padding:20px 20px;
+}
+.banner {
+	height:374px;
+	width:860px;
+	background:url(images/banner1.jpg) no-repeat left top;
+	color:#ffffff;
+}
+.banner p {
+	padding:20px 20px 20px 500px;
+}
+.micontenido li {
+	list-style:none;
+	display:inline;
+	float:left;
+	padding:40px 10px;
+}
+.micontenido li img {
+	border:1px solid #000000;
+}
+.contenido1 {
+	float:left;
+	width:400px;
+}
+.tips {
+	margin-left:490px;
+	border-left:1px solid #505151;
+	padding:0 0 0 20px;
+}
+#footer {
+	text-align:center;
+	height:250px;
+	background:url(images/UNAD2.png) repeat-x left top;
+	color:#ffffff;
+}
+#footer p {
+	padding:20px 0 0 0;
+}
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#navcontainer {
+	padding:20px 0 170px 0;
+}
+#navcontainer ul {
+	padding-left: 0;
+	margin-left: 0;
+	background: url(images/menuBackground.jpg) repeat-x left top;
+	color: White;
+	float: left;
+	width: 100%;
+	height:60px;
+}
+#navcontainer ul li { 
+	display: inline;
+	color:#ffffff;
+}
+#navcontainer ul li a {
+	padding:18px 29px 0 30px;
+	background: url(images/menuBackground.jpg) repeat-x left top;
+	color: #ffffff;
+	text-decoration: none;
+	float: left;
+	font-size:24px;
+}
+#navcontainer ul li a:hover {
+	background: url(images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+	height:60px;
+}
+#navcontainer #active a {
+	background: url(images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+	height:60px;
+}
+.menuSeparador {
+	height:60px;
+	width:1px;
+	float:left;
+}
